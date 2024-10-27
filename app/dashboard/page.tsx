@@ -719,7 +719,7 @@ export default function DashboardComponent() {
                     <CardContent>
                       <div className="grid grid-cols-2 gap-4">
                         {workHours.map((day) => (
-                          <div key={day.day} className="p-4 rounded-lg border border-neutral-200 border-gray-200 dark:border-gray-700 dark:border-neutral-800">
+                          <div key={day.day} className="p-4 rounded-lg border border-neutral-200 dark:border-gray-700 dark:border-neutral-800">
                             <p className="font-medium">{day.day}</p>
                             <p className="text-sm text-gray-500 dark:text-gray-400">{day.hours}</p>
                           </div>
